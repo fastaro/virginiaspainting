@@ -45,39 +45,38 @@ export default function Example(props) {
   };
   var items = [
     {
-      title: 'Article of The Month',
+      image: '/images/IMG-20221116-WA0017.jpg',
+
+      className: 'midimage',
+    },
+    {
       image: '/images/PHOTO-2022-11-16-12-48-48_1.jpg',
-      url: 'https://iacsp.com/latest_article.php',
+
       className: 'midimage',
     },
     {
-      title: 'Article of The Month',
       image: '/images/PHOTO-2022-11-16-12-48-48_2.jpg',
-      url: 'https://iacsp.com/latest_article.php',
+
       className: 'midimage',
     },
     {
-      title: 'Article of The Month',
       image: '/images/PHOTO-2022-11-16-12-48-48_3.jpg',
-      url: 'https://iacsp.com/latest_article.php',
+
       className: 'midimage',
     },
     {
-      title: 'Article of The Month',
       image: '/images/PHOTO-2022-11-16-12-48-48_4.jpg',
-      url: 'https://iacsp.com/latest_article.php',
+
       className: 'midimage',
     },
     {
-      title: 'Article of The Month',
       image: '/images/PHOTO-2022-11-16-12-48-48_5.jpg',
-      url: 'https://iacsp.com/latest_article.php',
+
       className: 'midimage',
     },
     {
-      title: 'Article of The Month',
       image: '/images/PHOTO-2022-11-16-12-48-48.jpg',
-      url: 'https://iacsp.com/latest_article.php',
+
       className: 'midimage',
     },
   ];
