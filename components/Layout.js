@@ -176,7 +176,7 @@ export default function Layout({ title, description, children }) {
                   flexGrow: 1,
                   justifyContent: 'center',
                   margin: 'auto',
-                  display: { xs: 'block', md: 'flex' },
+                  display: { xs: 'none', md: 'flex' },
                 }}
               >
                 <div>
@@ -246,6 +246,90 @@ export default function Layout({ title, description, children }) {
                         sx={{
                           mr: 2,
 
+                          fontWeight: 700,
+                          letterSpacing: '.3rem',
+                          color: 'inherit',
+                          textDecoration: 'none',
+                        }}
+                      >
+                        Contact
+                      </Typography>
+                    </NextLink>
+                  </div>
+                </div>
+              </Box>
+              <Box
+                sx={{
+                  flexGrow: 1,
+                  justifyContent: 'center',
+                  margin: 'auto',
+                  display: { xs: 'flex', md: 'none' },
+                }}
+              >
+                <div>
+                  <Typography
+                    sx={{
+                      mr: 2,
+                      fontSize: '3vw',
+                      fontWeight: 700,
+                      letterSpacing: '.9rem',
+                      color: '#27425D',
+                      textDecoration: 'none',
+                    }}
+                  >
+                    <FormatPaintIcon fontSize="60px" /> Virginia&apos;s Painting
+                  </Typography>
+                  <div className="caption2">
+                    <p>COMMERCIAL & RESIDENTIAL</p>
+                  </div>
+                  <div className="nav-buttons">
+                    <NextLink href="/" passHref>
+                      <Typography
+                        variant="h5"
+                        noWrap
+                        component="a"
+                        href=""
+                        sx={{
+                          mr: 2,
+                          fontSize: '12px',
+                          fontWeight: 700,
+                          letterSpacing: '.3rem',
+                          color: 'inherit',
+                          textDecoration: 'none',
+                        }}
+                      >
+                        Home
+                      </Typography>
+                    </NextLink>
+
+                    <NextLink href="/about" passHref>
+                      <Typography
+                        variant="h5"
+                        noWrap
+                        component="a"
+                        href=""
+                        sx={{
+                          mr: 2,
+                          fontSize: '12px',
+                          fontWeight: 700,
+                          letterSpacing: '.3rem',
+                          color: 'inherit',
+                          textDecoration: 'none',
+                        }}
+                      >
+                        About
+                      </Typography>
+                    </NextLink>
+
+                    <NextLink href="/contact" passHref>
+                      <Typography
+                        variant="h5"
+                        noWrap
+                        component="a"
+                        href=""
+                        sx={{
+                          mr: 2,
+                          fontSize: '12px',
                           fontWeight: 700,
                           letterSpacing: '.3rem',
                           color: 'inherit',
