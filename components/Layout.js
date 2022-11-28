@@ -180,20 +180,14 @@ export default function Layout({ title, description, children }) {
                 }}
               >
                 <div>
-                  <Typography
-                    variant="h1"
-                    noWrap
-                    sx={{
-                      mr: 2,
-
-                      fontWeight: 700,
-                      letterSpacing: '.9rem',
-                      color: '#27425D',
-                      textDecoration: 'none',
-                    }}
-                  >
-                    <FormatPaintIcon fontSize="60px" /> Virginia&apos;s Painting
-                  </Typography>
+                  <div>
+                    {' '}
+                    <h1 className="main-header">
+                      {' '}
+                      <FormatPaintIcon fontSize="60px" /> Virginia&apos;s
+                      Painting
+                    </h1>
+                  </div>
                   <div className="caption">
                     <p>COMMERCIAL & RESIDENTIAL</p>
                   </div>
@@ -209,7 +203,7 @@ export default function Layout({ title, description, children }) {
                           mr: 2,
 
                           fontWeight: 700,
-                          letterSpacing: '.3rem',
+
                           color: 'inherit',
                           textDecoration: 'none',
                         }}
@@ -270,14 +264,15 @@ export default function Layout({ title, description, children }) {
                   <Typography
                     sx={{
                       mr: 2,
-                      fontSize: '3vw',
+                      fontSize: '5vw',
                       fontWeight: 700,
-                      letterSpacing: '.9rem',
+                      letterSpacing: '.3rem',
                       color: '#27425D',
                       textDecoration: 'none',
                     }}
                   >
-                    <FormatPaintIcon fontSize="60px" /> Virginia&apos;s Painting
+                    <FormatPaintIcon fontSize="60px" />
+                    <span> Virginia&apos;s Painting</span>
                   </Typography>
                   <div className="caption2">
                     <p>COMMERCIAL & RESIDENTIAL</p>

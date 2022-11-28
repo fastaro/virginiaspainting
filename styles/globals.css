@@ -95,18 +95,31 @@ body {
   background-color: rgb(24, 28, 32);
 }
 
+.main-header {
+  font-size: 3vw;
+  font-weight: 700;
+  letter-spacing: .9rem;
+  color: #27425D;
+  text-decoration: none;
+}
+
 .caption{
+  display: flex;
   position: absolute;
-  top: 90px;
+  top: 5vw;
+  right: 0vw;
   width: 100%;
   margin: auto;
+  float: left;
   text-align: center;
   z-index: -1;
+justify-content: center;
 }
 
 .caption2{
   position: absolute;
-  top: 20px;
+  top: 5vw;
+  right: 0vw;
   font-size: 9px;
   width: 100%;
 
@@ -167,24 +180,8 @@ background-size: contain;
     z-index: 1;
   }
 
-.main-header{
-  font-family: 'Futura Italic';
-  font-size: 6vw;
-  cursor: default;
-  color: white;
-  transition: all ease-out 1.5s;
-}
 
-.main-header:hover{
 
-  background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
-  background-size: cover;
-  color: rgba(255, 0, 0, 0.705);
-  -moz-background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-transition: all 1s;
-  transition: all ease-out .75s;
-}
 
 .mhlink {
   color: #000;
@@ -274,11 +271,7 @@ background-size: contain;
   top: -10px;
 }
 
-.main-header {
-  color: rgb(177, 177, 177);
-  border-radius: 5px;
 
-}
 
 .main-container{
   background-color: rgba(0,0,0,0);
@@ -469,12 +462,7 @@ background: $light-gray; tint($gray, 50); #bdc3c7
 
 button background? background: rgba($purple, .2);  #89609E
 
-.main-header {
-  @include clearfix;
-  background: $dt-dark-dark;  shade($dt-dark, 15); #191c21;
-  
-  
-  
+
   
   */ 
 
