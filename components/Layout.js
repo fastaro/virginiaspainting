@@ -268,11 +268,14 @@ export default function Layout({ title, description, children }) {
                       fontWeight: 700,
                       letterSpacing: '.3rem',
                       color: '#27425D',
+                      width: '100%',
                       textDecoration: 'none',
                     }}
                   >
-                    <FormatPaintIcon fontSize="60px" />
-                    <span> Virginia&apos;s Painting</span>
+                    <span className="main-header2">
+                      <FormatPaintIcon fontSize="60px" />
+                      Virginia&apos;s Painting
+                    </span>
                   </Typography>
                   <div className="caption2">
                     <p>COMMERCIAL & RESIDENTIAL</p>

@@ -101,6 +101,12 @@ body {
   letter-spacing: .9rem;
   color: #27425D;
   text-decoration: none;
+  overflow-x: hidden;
+}
+.main-header2 {
+  display: block;
+
+  overflow: hidden;
 }
 
 .caption{
